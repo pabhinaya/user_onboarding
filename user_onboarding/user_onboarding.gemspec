@@ -9,14 +9,15 @@ Gem::Specification.new do |s|
   s.version     = UserOnboarding::VERSION
   s.authors     = ["pabhinaya"]
   s.email       = ["abhinaya.pabbisetty@freshworks.com"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of UserOnboarding."
-  s.description = "TODO: Description of UserOnboarding."
+  s.homepage    = "https://github.com/pabhinaya/user_onboarding"
+  s.summary     = "Summary of UserOnboarding."
+  s.description = "Description of UserOnboarding."
   s.license     = "MIT"
 
   s.files = Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
+  s.test_files = Dir["test/**/*"]
 
-  s.add_dependency "rails", "~> 5.2.0"
+  s.add_dependency "rails", "~> 3.2.22.5"
 
   s.add_development_dependency "sqlite3"
 end
